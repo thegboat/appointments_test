@@ -46,3 +46,20 @@ This software is intentionally lightweight and was built using the following
 - rspec and factory_girl for testing
 - rails 4
 - jbuilder was included for rendering and easy api versioning but is not implemented.
+
+Running Locally
+--------
+
+`git clone git@github.com:thegboat/appointments_test.git`
+`cd appointments_test`
+`bundle install`
+`rake db:migrate`
+`rake db:seed`
+`rails s`
+
+To run tests
+
+`rake db:test:prepare`
+`bundle exec rspec spec`
+
+
