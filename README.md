@@ -51,15 +51,21 @@ Running Locally
 --------
 
 `git clone git@github.com:thegboat/appointments_test.git`
+
 `cd appointments_test`
+
 `bundle install`
+
 `rake db:migrate`
+
 `rake db:seed`
+
 `rails s`
 
 To run tests
 
 `rake db:test:prepare`
+
 `bundle exec rspec spec`
 
 
