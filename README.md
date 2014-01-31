@@ -36,3 +36,13 @@ DELETE to v1/appointments/:id to delete an appointment
 GET to v1/appointments to retrieve all appointments
 
 `curl http://localhost:3000/v1/appointments`
+
+The Code
+-------
+
+This software is intentionally lightweight and was built using the following
+
+- sqlite for persistence
+- rspec and factory_girl for testing
+- rails 4
+- jbuilder was included for rendering and easy api versioning but is not implemented.
