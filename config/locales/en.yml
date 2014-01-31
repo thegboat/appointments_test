@@ -21,3 +21,11 @@
 
 en:
   hello: "Hello world"
+
+  response:
+    errors:
+      messages:
+        bad_request: 'The request is missing a required parameter, includes an unsupported parameter value, or is otherwise malformed.'
+        not_found: 'The resource does not exist or is unavailable.'
+        unauthorized: 'You do not have permission to access this resource'
+        unprocessable_entity: 'The resource could not be saved'
